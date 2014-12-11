@@ -104,7 +104,8 @@
       this.$lightbox.find('.lb-next').on('click', function() {
         if (self.currentImageIndex === self.album.length - 1) {
           self.changeImage(0);
-        } else {
+        } 
+        else {
           self.changeImage(self.currentImageIndex + 1);
         }
         return false;
@@ -303,7 +304,8 @@
             this.$lightbox.find('.lb-prev, .lb-next').css('opacity', '1');
           }
           this.$lightbox.find('.lb-prev, .lb-next').show();
-        } else {
+        } 
+        else {
           if (this.currentImageIndex > 0) {
             this.$lightbox.find('.lb-prev').show();
             if (alwaysShowNav) {
@@ -312,9 +314,13 @@
           }
           if (this.currentImageIndex < this.album.length - 1) {
             this.$lightbox.find('.lb-next').show();
+
             if (alwaysShowNav) {
               this.$lightbox.find('.lb-next').css('opacity', '1');
             }
+          }
+          if (this.currentImageIndex == this.album.length - 1) {
+            this.showLastTip();
           }
         }
       }
@@ -335,7 +341,7 @@
           });
         this.$lightbox.find('.work-detail')
           .attr("href",this.album[this.currentImageIndex].href)
-          .fadeIn('fast').on('click',function(){
+          .fadeIn('fast').off().on('click',function(){
             window.open($(this).attr('href'));
           });
       }
@@ -407,6 +413,16 @@
         visibility: "visible"
       });
     };
+
+    Lightbox.prototype.showLastTip = function(){
+      var _tip = $("<div class='lb-tip'>本页已浏览完毕</div>");
+      $("body").append(_tip);
+      setTimeout(function(){
+        _tip.fadeOut(function(){
+          _tip.remove();
+        });
+      },1000);
+    }
 
     return Lightbox;
 

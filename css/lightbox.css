@@ -231,3 +231,4 @@ body:after {
   opacity: 1;
 }
 .lb-title{text-align:center;color:#FFF;}
+.lb-tip{position:fixed;width:200px;height:40px;line-height:40px;top:50%;left:50%;margin:-20px 0 0 -100px;border-radius:5px;background-color:#000;opacity:0.8;filter:alpha(opacity=80);color:#FFF;text-align:center;z-index:11000;}
