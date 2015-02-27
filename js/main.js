@@ -108,3 +108,36 @@ DS.member.work = {
 		});
 	}
 };
+
+//新闻
+DS.news = {};
+DS.news.index = {
+	init:function(){
+		this.initCarousel();
+		this.initTab();
+	},
+	initCarousel:function(){
+		$("#topNewsCarousel").owlCarousel({
+			autoPlay: true,
+			navigation : true,
+			navigationText : ["<",">"],
+			slideSpeed : 300,
+			paginationSpeed : 400,
+			paginationNumbers : true,
+			singleItem:true
+		});
+	},
+	initTab:function(){
+		DS.widget("Tab",{
+			tabBox:"#sculpturerTabBox",
+			tabBtn:"#sculpturerTab",
+			tabBoxClass:".img-list"
+		});
+
+		DS.widget("Tab",{
+			tabBox:"#sculpSchoolTabBox",
+			tabBtn:"#sculpSchoolTab",
+			tabBoxClass:".school-list"
+		});
+	}
+}
