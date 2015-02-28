@@ -325,7 +325,8 @@ _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingM
 .comment-form .c-f-up a:hover{color:#D2334F;}
 .comment-form .c-f-up span{margin:0 15px;}
 .comment-form .c-f-up .login-btn,.comment-form .c-f-up .login-btn:hover{display: block;width:55px;height:21px;line-height:21px;margin:3px 0 0 5px;border:1px solid #E1E1E1;border-radius: 3px;background-color: #ECECEC;text-align:center;color:#ce344e;}
-.comment-form .c-f-ta textarea{width:934px;height:76px;padding:5px;border:none;border-top:1px solid #D9D9D9;background-color: #FFF;}
+.comment-form .c-f-ta{padding:5px;border-top:1px solid #D9D9D9;}
+.comment-form .c-f-ta textarea{width:100%;height:76px;border:none;background-color: #FFF;}
 .c-f-submit{margin:10px 0 12px 0;}
 .c-f-submit strong{height:30px;line-height:30px;}
 .c-f-submit input{width:72px;height:18px;line-height:18px;margin-right:5px;padding:5px;border:1px solid #D9D9D9;}

@@ -53,7 +53,7 @@ a:hover{text-decoration:none;color:#d2334f;}
 @media screen and (-webkit-min-device-pixel-ratio:0){.sl-floatcenter{-webkit-text-size-adjust:none;}}
 .justify-align{display:block;text-align:justify;text-justify:distribute-all-lines;text-align-last:justify;-moz-text-align-last:justify;-webkit-text-align-last:justify;}
 @media screen and (-webkit-min-device-pixel-ratio:0){.justify-align:after{content:".";display: inline-block;width:100%;overflow:hidden;height:0;}}
-.ico{display:inline-block;}
+
 .lazyOwl{background:url(carousel/AjaxLoader.gif) no-repeat 50% 50%;}
 
 p{color:#4A4A4A;}
@@ -106,6 +106,8 @@ p{color:#4A4A4A;}
 .ico{display: inline-block;}
 .ico-arrow{width:9px;height:5px;background: url(images/sprite.png) no-repeat -123px -36px;}
 .ico-arrow-up{background: url(images/sprite.png) no-repeat -137px -36px;}
+.ico-view{width:12px;height:9px;background: url(images/sprite.png) no-repeat -164px -36px;}
+.ico-comment{width:12px;height:11px;background: url(images/sprite.png) no-repeat -181px -36px;}
 
 .gotop{display:none;position:fixed;right:10px;bottom:100px;}
 .gotop a{position:absolute;display:block;width:48px;height:80px;right:0;bottom:0;background:url(images/sprite.png) no-repeat 0 -98px;}
