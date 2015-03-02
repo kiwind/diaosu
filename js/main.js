@@ -120,10 +120,10 @@ DS.news.index = {
 		$("#topNewsCarousel").owlCarousel({
 			autoPlay: true,
 			navigation : true,
-			navigationText : ["<",">"],
+			navigationText : ['&lt;',"&gt;"],
 			slideSpeed : 300,
 			paginationSpeed : 400,
-			paginationNumbers : true,
+			paginationNumbers : false,
 			singleItem:true
 		});
 	},

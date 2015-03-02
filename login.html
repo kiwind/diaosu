@@ -20,6 +20,9 @@
 <div class="w">
 	<form id="loginForm" method="post" action="login.php">
 		<div class="login-form">
+			<div class="tip">
+				<p>注册成功，请登录</p>
+			</div>
 			<ul>
 				<li class="clearfix">
 					<div class="placeholder">
@@ -46,8 +49,8 @@
 							<span>验证码</span>
 							<input type="text" name="verifycode" maxlength="5" datatype="/^[a-zA-Z0-9]{5}$/" errormsg="请正确输入验证码" nullmsg="请输入验证码" sucmsg=" " />
 						</div>
-						<div class="verify-img"><img src="http://www.test.diaosu.cn/captcha" alt=""></div>
-						<span class="verify-change">点击图片更换</span>
+						<div class="verify-img"><img title="点击图片更换" alt="点击图片更换" src="http://www.test.diaosu.cn/captcha" alt=""></div>
+						<a class="forget-pwd" href="#">忘记密码</a>
 					</div>
 					<div class="prompt"></div>
 					<i class="cl"></i>
