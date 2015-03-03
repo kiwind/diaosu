@@ -1,0 +1,18 @@
+.smenu-exhibition h2{margin-right:5px;}
+.smenu-exhibition ul{width:885px;}
+
+.exhibition-filter{height:150px;}
+.exhibition-filter .sbox{border:none;}
+.exhibition-filter .filter-box .ft-attr{width:72px;margin-right:0;}
+.exhibition-filter .filter-box .ft-tag a{margin:0 7px 3px 0;}
+.exhibition-filter .filter-box .ft-tag a:hover{color:#D2334F;background:none;}
+.exhibition-filter .filter-box-work .ft-line{margin-top:0;}
+
+.exhibition-boxl,.exhibition-boxr{height:310px;}
+
+.exhibitions{width:676px;margin:10px auto 0;}
+.exhibitions ul{width:701px;}
+.exhibitions li{display:inline;float:left;width:150px;margin-right:25px;}
+.exhibitions img{width:150px;height:210px;}
+.exhibitions p{height:36px;line-height:36px;text-align:center;color:#000;overflow:hidden;}
+.exhibitions a:hover p{background-color:#000;color:#FFF;}
