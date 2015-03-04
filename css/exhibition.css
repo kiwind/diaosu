@@ -16,3 +16,19 @@
 .exhibitions img{width:150px;height:210px;}
 .exhibitions p{height:36px;line-height:36px;text-align:center;color:#000;overflow:hidden;}
 .exhibitions a:hover p{background-color:#000;color:#FFF;}
+
+.exhibition-news ul{margin-top:3px;}
+.exhibition-news li{width:224px;height:26px;line-height:26px;margin:0 auto;text-overflow:ellipsis;white-space:nowrap;}
+.exhibition-news li em{margin-right:4px;vertical-align:middle;}
+.exhibition-news li .num{display:inline-block;width:17px;height:17px;line-height:17px;text-align:center;}
+.exhibition-news li a:hover .num{background-color:#D2334F;color:#FFF;}
+
+.content .exhibition-left{float:left;}
+.content .exhibition-right{float:right;}
+.exhibition-search{padding-top:0;}
+.content .exhibition-search .box-title{margin-top:16px;margin-bottom:10px}
+.content-exhibition .userwork-left-up{height:469px;}
+.content-exhibition .userwork-left-down{height:546px;}
+.content-exhibition .exhibition-left{height:1022px;}
+.content-exhibition .user-exhibition .e-img{margin-left:0;}
+.content-exhibition .user-exhibition .e-r{width:490px;}

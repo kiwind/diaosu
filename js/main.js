@@ -129,15 +129,9 @@ DS.news.index = {
 	},
 	initTab:function(){
 		DS.widget("Tab",{
-			tabBox:"#sculpturerTabBox",
-			tabBtn:"#sculpturerTab",
-			tabBoxClass:".img-list"
-		});
-
-		DS.widget("Tab",{
-			tabBox:"#sculpSchoolTabBox",
-			tabBtn:"#sculpSchoolTab",
-			tabBoxClass:".school-list"
+			tabBox:"#hotnewsTabBox",
+			tabBtn:".tab",
+			tabBoxClass:".hotnews-list"
 		});
 	}
 }

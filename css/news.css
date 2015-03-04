@@ -12,10 +12,9 @@
 .hot-comment .tab{width:230px;margin:4px auto 4px;}
 .hot-comment .tab li, .hot-comment .tab li a{width:50%;margin-right:0;padding:0;text-align:center;}
 
-.hotnews-list li{width:230px;margin:0 auto;}
-.hotnews-list li span{float:left;width:16px;height:16px;line-height:16px;margin-top:4px;text-align:center;}
-.hotnews-list li .cr{background-color:#D2334F;color:#FFF;}
-.hotnews-list li a{float:right;width:200px;height:24px;line-height:24px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.hotnews-list li{width:230px;margin:0 auto;height:24px;line-height:24px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.hotnews-list li span{display:inline-block;width:16px;height:16px;line-height:16px;margin-right:10px;text-align:center;}
+.hotnews-list li a:hover span{background-color:#D2334F;color:#FFF;}
 
 .content-news .news-box{padding:15px 18px;}
 .top-news h3{line-height:24px;font-size:18px;color:#000;font-family:"microsoft yahei";}
