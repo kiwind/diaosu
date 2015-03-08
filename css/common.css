@@ -109,6 +109,8 @@ p{color:#4A4A4A;}
 .ico-view{width:12px;height:9px;background: url(images/sprite.png) no-repeat -164px -36px;}
 .ico-comment{width:12px;height:11px;background: url(images/sprite.png) no-repeat -181px -36px;}
 .ico-video{width:50px;height:33px;background: url(images/video.png) no-repeat 0 0;}
+.ico-comment-exb{width:12px;height:13px;background: url(images/sprite.png) no-repeat -23px -75px;}
+.ico-one{width:18px;height:2px;background: url(images/sprite.png) no-repeat -40px -75px;}
 
 .gotop{display:none;position:fixed;right:10px;bottom:100px;}
 .gotop a{position:absolute;display:block;width:48px;height:80px;right:0;bottom:0;background:url(images/sprite.png) no-repeat 0 -98px;}

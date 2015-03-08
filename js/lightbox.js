@@ -137,6 +137,7 @@
         self.album.push({
           link: $link.attr('href'),
           title: $link.attr('data-title') || $link.attr('title'),
+          desc: $link.attr('data-desc') || $link.attr('desc'),
           href:$link.attr('data-href')
         });
       }
@@ -334,11 +335,14 @@
       // Thanks Nate Wright for the fix. @https://github.com/NateWr
       if (typeof this.album[this.currentImageIndex].title !== 'undefined' && this.album[this.currentImageIndex].title !== "") {
         this.$lightbox.find('.lb-caption')
-          .html(this.album[this.currentImageIndex].title)
+          .html(this.album[this.currentImageIndex].desc)
           .fadeIn('fast')
           .find('a').on('click', function(event){
             location.href = $(this).attr('href');
           });
+         this.$lightbox.find('.lb-title')
+          .html(this.album[this.currentImageIndex].title)
+          .fadeIn('fast');
         this.$lightbox.find('.work-detail')
           .attr("href",this.album[this.currentImageIndex].href)
           .fadeIn('fast').off().on('click',function(){
