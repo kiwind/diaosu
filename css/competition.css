@@ -1,0 +1,15 @@
+.smenu ul{width:859px;}
+.competition-list ul{width:1000px;padding:17px;}
+.competition-list li{display:inline;float:left;width:305px;height:279px;margin:0 16px 40px 0;}
+.competition-list li img{width:305px;height:183px;}
+.competition-list li p{height:45px;line-height:45px;margin-bottom:12px;text-indent:2px;color:#000;}
+.competition-list li span{width:140px;height:37px;line-height:37px;border:1px solid #E1E1E1;text-align:center;font-size:14px;}
+.competition-list li a,.competition-list li a:hover{width:139px;height:39px;line-height:39px;background-color:#D2334F;text-align:center;font-size:14px;color:#FFF;}
+.content-competition .pagination{margin:68px 0 9px 0;}
+
+.banner-competition{background-color:#fff;text-align:center;overflow:hidden;}
+.menu-competition{height:45px;line-height:45px;background:#424242 url(images/repeatx.png) repeat-x 0 -124px;}
+.menu-competition a{margin-right:20px;padding:0 20px;font:20px/45px "microsoft yahei";color:#FFF;}
+.menu-competition a:hover,.menu-competition .cur{color:#d2334f;}
+
+.competition-work{background-color:#FFF;}

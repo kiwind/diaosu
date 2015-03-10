@@ -80,6 +80,7 @@ p{color:#4A4A4A;}
 .smenu li a{margin:0 20px;color:#000;font-size:18px;font-family:"microsoft yahei";}
 .smenu .cur{background: url(images/smenu-arrow.png) no-repeat 50% bottom;}
 .smenu .cur a,.smenu li a:hover{color:#d2334f;}
+.smenu li .cb{color:#1377b8;}
 
 .footer{margin-top:5px;padding:5px 0 20px 0;background:#121212 url(images/footer-repeat.png) repeat-x 0 0;text-align:center;font-family:"microsoft yahei";}
 .footer .link{padding:5px 0;}
