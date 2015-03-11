@@ -343,11 +343,20 @@
          this.$lightbox.find('.lb-title')
           .html(this.album[this.currentImageIndex].title)
           .fadeIn('fast');
-        this.$lightbox.find('.work-detail')
+
+        if(!this.album[this.currentImageIndex].href)
+        {
+          this.$lightbox.find('.work-detail').hide();
+        }
+        else
+        {
+          this.$lightbox.find('.work-detail')
           .attr("href",this.album[this.currentImageIndex].href)
           .fadeIn('fast').off().on('click',function(){
             window.open($(this).attr('href'));
           });
+        }
+        
       }
     
       if (this.album.length > 1 && this.options.showImageNumberLabel) {
