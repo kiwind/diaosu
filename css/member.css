@@ -57,7 +57,7 @@ _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingM
 .sculp-school{height:486px;}
 .school-list{width:1000px;padding:10px 0 0 16px;}
 .box-l .school-list{width:728px;}
-.school-list .sl-item{float:left;width:136px;height:198px;margin:0 42px 4px 0;border:1px solid #FFF;text-align:center;overflow:hidden;}
+.school-list .sl-item{display: block;float:left;width:136px;height:198px;margin:0 42px 4px 0;border:1px solid #FFF;text-align:center;overflow:hidden;}
 .school-list .sl-item:hover,.school-list .sl-item-hover{border:1px solid #D2334F;}
 .school-list img{width:132px;height:132px;border:2px solid #E1E1E1;}
 .school-list .sl-item p{display:table-cell;width:132px;height:35px;line-height:18px;margin-top:0;padding-top:5px;font-size:14px;color:#000;vertical-align:middle;overflow:hidden;}
