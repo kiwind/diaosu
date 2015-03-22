@@ -551,6 +551,7 @@ var DS = (function($){
         init:function(){
             this.placeHolder();
             this.goTop();
+            this.competitionSearch();
         },
         placeHolder:function(){
             $(".placeholder").each(function(){
@@ -610,6 +611,28 @@ var DS = (function($){
                 }
             });
             
+        },
+        competitionSearch:function(){
+            var _box = $("#competitionSearch");
+            if(_box.length < 1) return;
+            var _sel = _box.find(".cs-select"),
+                _sinput = _sel.find("input");
+                _option = _sel.find(".css-list").find("li");
+
+            _sel.on("click",function(){
+                _box.toggleClass("focus");
+            });
+
+            _option.on("click",function(){
+                _sinput.val($(this).data("value"));
+            });
+
+            $(document).on("click",function(e){
+                e = e || window.event;
+                if(!$.contains(_sel[0], e.target)){
+                    _box.removeClass("focus");
+                }
+            });
         }
     }
 

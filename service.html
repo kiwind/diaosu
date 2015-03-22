@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>服务内容-中国雕塑网</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+<link type="text/css" rel="stylesheet" href="css/common.css" />
+<link type="text/css" rel="stylesheet" href="css/about.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+</head>
+<body>
+<div class="header-ht">
+	<div class="w">
+		<div class="ht-l fl">
+			<span>中国雕塑行业第一门户网站</span>
+			<a href="#">登陆</a>
+			<a href="#">免费注册</a>
+		</div>
+		<div class="ht-r fr">
+			<a onclick="DS.widget.common.setHome(this,'http://www.diaosu.cn');" href="#">设为首页</a>
+			<a onclick="DS.widget.common.addToFavorite()" href="#">收藏本站</a>
+		</div>
+	</div>
+</div>
+<div class="w banner-about">
+	<img src="images/banner-about.jpg" alt="" />
+	<h3><strong>服务</strong>内容</h3>
+</div>
+<div id="tabBox" class="w content content-about clearfix">
+	<div class="about-menu fl">
+		<ul class="tab">
+			<li class="cur"><span class="ico ico-personals"></span>个人服务</li>
+			<li><span class="ico ico-scholls"></span>院校服务</li>
+			<li><span class="ico ico-exbitions"></span>展览服务</li>
+			<li><span class="ico ico-ads"></span>广告服务</li>
+			<li><span class="ico ico-contact"></span>联系我们</li>
+		</ul>
+	</div>
+	<div class="about-item-box fl">
+		<div class="about-item">
+			<h3>个人服务</h3>
+			<p>1．乙方为甲方提供无空间限制的个人形象网站及个性二级域名。</p>
+			<p>2．在乙方提供的个人形象网站上发布个人作品、个人简介、相关文章等内容。</p>
+			<p>3．可以根据甲方意愿随时更改以上信息。</p>
+			<p>4．甲方的资料（包括个人简介、作品、销售、资讯、拍卖等数据）将存储在乙方网站数据库，以备查询和检索，并享受终身免费维护的服务。</p>
+			<p>5．乙方将不定期免费对个人网站进行功能完善，界面优化、改版。</p>
+			<p>6．甲方更新的文章经乙方审核，可以在乙方网站首页显示。</p>
+			<p>7．甲方更新的作品及时在乙方网站首页“作品展示”栏目显示。</p>
+			<p>8．乙方免费为甲方在首页发布作品落成、展览、获奖、拍卖、受访等资讯。</p>
+			<p>9．乙方每年为甲方免费在网上办一次个展或群展。</p>
+			<p>10．中国雕塑网上有关雕塑设计方案征集、雕塑大奖赛等活动，乙方保证优先通知甲方。</p>
+			<p>11．如有单位想找甲方设计制作雕塑，乙方保证及时通知甲方，绝不遗漏信息。</p>
+			<p>12．乙方每年为甲方免费用短信平台发布一条重要信息给收藏家、评论家及网站所有会员。</p>
+		</div>
+		<div class="about-item hide">
+			院校服务
+		</div>
+		<div class="about-item hide">
+			展览服务
+		</div>
+		<div class="about-item hide">
+			广告服务
+		</div>
+		<div class="about-item hide">
+			联系我们
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="link">
+		<a href="#">关于我们</a>
+		<a href="#">大事记</a>
+		<a href="#">广告服务</a>
+		<a href="#">会员服务</a>
+		<a href="#">人才招聘</a>
+		<a href="#">联系我们</a>
+		<a href="#">网站地图</a>
+		<a href="#">版权说明</a>
+		<a href="#">免责声明</a>
+	</div>
+	<div class="copyright"><span>Copyright 2003-2014　DIAOSU.CN　All rights reserved 版权所有</span> <span>中国雕塑网 苏ICP备11036881号</span></div>
+	<div class="f-contact">联系电话：025-86279020、025-86209756、025-86278870</div>
+</div>
+<div id="goTop" class="gotop">
+	<a href="#">
+		<div class="code">
+			<img src="images/wx.jpg" alt="" />
+			<p>微信</p>
+			<img src="images/wb.jpg" alt="" />
+			<p>微博</p>
+		</div>
+	</a>
+</div>
+<script type="text/javascript">
+	$(function(){
+		DS.widget("Tab",{
+			tabBox:"#tabBox",
+			tabBtn:".tab",
+			tabBoxClass:".about-item"
+		});
+	});
+</script>
+</body>
+</html>
+
+

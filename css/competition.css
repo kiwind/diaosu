@@ -13,14 +13,14 @@
 .menu-competition a:hover,.menu-competition .cur{color:#d2334f;}
 .menu-competition .mc-box{position:relative;}
 .menu-competition .c-search{position:absolute;top:11px;right:7px;width:250px;height:24px;background-color:#FFF;}
-.menu-competition .c-search .bd{position: absolute;width:1px;height:22px;top:1px;left:123px;background: url(images/cs-search-bd.png) no-repeat 0 0;z-index:100;}
-.menu-competition .c-search .placeholder{position: relative;width:124px;height:24px;}
+.menu-competition .c-search .bd{position: absolute;width:1px;height:22px;top:1px;left:123px;background: url(images/cs-search-bd.png) no-repeat 0 0;z-index:10000;}
+.menu-competition .c-search .placeholder{position: relative;width:124px;height:24px;overflow:hidden;}
 .menu-competition .c-search .placeholder span{position: absolute;width:124px;height:24px;line-height:24px;top:0;left:0;z-index:2;text-indent:10px;color:#7a7a7a;}
 .menu-competition .c-search .placeholder input{position:absolute;width:122px;height:18px;padding:2px 0;border:1px solid #FFF;text-indent:10px;}
 .menu-competition .c-search.focus .placeholder input{border-color:#CE314E;}
-.menu-competition .cs-select{position:relative;width:74px;height:20px;margin-top:3px;cursor:pointer;}
-.menu-competition .cs-select input{position:relative;display:block;width:74px;height:18px;line-height:18px;padding:1px 0;border:none;text-indent:4px;color:#000;cursor:pointer;}
-.menu-competition .cs-select .arrow{position: absolute;width:0;height:0;top:8px;right:5px;border:5px solid #7A7A7A;border-color:#7A7A7A #FFF #FFF #FFF;z-index:21;}
+.menu-competition .cs-select{position:relative;width:74px;height:20px;margin-top:3px;cursor:pointer;*margin-top:2px;}
+.menu-competition .cs-select input{position:relative;display:block;width:74px;height:18px;line-height:18px;margin-top:-1px;padding:1px 0;border:0 none;text-indent:4px;color:#000;cursor:pointer;*width:70px;}
+.menu-competition .cs-select .arrow{position: absolute;width:0;height:0;top:8px;right:5px;border:5px solid #7A7A7A;border-color:#7A7A7A #FFF #FFF #FFF;z-index:21;overflow:hidden;*top:8px;}
 .menu-competition .focus .cs-select .arrow{top:2px;border-color:#FFF #FFF #CE314E #FFF;}
 .menu-competition .cs-select .css-list{display:none;position: absolute;top:0;left:0;width:73px;top:-3px;left:-1px;padding:2px 0;border:1px solid #CE314E;background-color: #FFF;text-indent:4px;z-index:20;}
 .menu-competition .focus .cs-select .css-list{display:block;}
@@ -57,7 +57,7 @@
 .competition-work .work-show .school-list .sl-item .voters em{position: absolute;display:block;width:0;height:0;top:-8px;right:45px;border:4px solid #FFF;border-color:#FFF #FFF #C52F4A #FFF;_top:-26px;}
 .competition-work .work-show .school-list .sl-item .judge-vote{display: inline-block;height:20px;vertical-align:middle;*display:inline;*vertical-align:-3px;}
 .competition-work .work-show .school-list .sl-item .judge-vote .jv-count{height:28px;}
-.competition-work .work-show .school-list .sl-item .judge-vote:hover{color:#D2334F;}
+.competition-work .work-show .school-list .sl-item .judge-vote:hover,.competition-work .work-show .school-list .sl-item .judge-vote .jv-count:hover{color:#D2334F;}
 .competition-work .sbox{overflow:visible;}
 
 .competition-work .article{width:100%;padding-bottom:0;}

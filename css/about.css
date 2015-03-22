@@ -1,0 +1,86 @@
+.banner-about{position: relative;text-align:center;overflow:hidden;}
+.banner-about h3{position: absolute;bottom:0;left:0;font-size:36px;color:#58B5DF;font-family:"microsoft yahei";}
+.banner-about h3 strong{font-weight:400;font-size:58px;}
+
+.content-about{margin-bottom:50px;}
+.content-about .about-menu{width:250px;padding:10px 0;border-top:1px dashed #020200;background:url(images/about-menu.png) 0 0 repeat;}
+.content-about .about-menu ul{width:230px;margin:0 auto;}
+.content-about .about-menu li{
+	display: block;
+	width:230px;
+	height:68px;
+	line-height:68px;
+	margin-top:1px;
+	padding:0;
+	background-color: #fff;
+	font-size:16px;
+}
+
+.content-about .about-menu .cur{
+	background-color: #ECECEC;
+	background-image: none;
+	color:#000;
+}
+
+.content-about .about-menu .ico{
+	display: inline-block;
+	width:42px;
+	height:45px;
+	margin:0 22px 0 45px;
+	background:url(images/ico.png) no-repeat 0 0;
+	vertical-align:middle;
+}
+
+.content-about .about-menu .ico-intro{
+	background-position:0 0;
+}
+
+.content-about .about-menu .ico-vantage{
+	background-position:0 -45px;
+}
+
+.content-about .about-menu .ico-case{
+	background-position:0 -90px;
+}
+
+.content-about .about-menu .ico-active{
+	background-position:0 -135px;
+}
+
+.content-about .about-menu .ico-contact{
+	background-position:0 -180px;
+}
+
+.content-about .about-menu .ico-personals{
+	background-position:0 -225px;
+}
+
+.content-about .about-menu .ico-scholls{
+	background-position:0 -270px;
+}
+
+.content-about .about-menu .ico-exbitions{
+	background-position:0 -315px;
+}
+
+.content-about .about-menu .ico-ads{
+	background-position:0 -360px;
+}
+
+.content-about .about-item-box{
+	width:650px;
+	margin-left:38px;
+}
+
+.content-about .about-item-box h3{
+	margin-top:8px;
+	line-height:26px;
+	font-size:16px;
+	font-weight:700;
+	font-family:"microsoft yahei";
+}
+
+.content-about .about-item-box p{
+	line-height:24px;
+	text-indent:2em;
+}

@@ -35,7 +35,7 @@
 		<a href="#">投票作品</a>
 		<a href="#">赛事资讯</a>
 		<a class="cur" href="#">评委名单</a>
-		<div class="c-search">
+		<div id="competitionSearch" class="c-search clearfix">
 			<span class="bd"></span>
 			<div class="placeholder fl">
 				<span>请输入关键字</span>
@@ -43,11 +43,11 @@
 			</div>
 			<div class="cs-select fl">
 				<span class="arrow"></span>
-				<input type="text" placeholder="作品名称" />
+				<input type="text" value="作品名称" />
 				<ul class="css-list">
-					<li>作品名称</li>
-					<li>作者</li>
-					<li>备注</li>
+					<li data-value="作品名称">作品名称</li>
+					<li data-value="作者">作者</li>
+					<li data-value="备注">备注</li>
 				</ul>
 			</div>
 			<a class="cs-btn fl" href="#">搜 索</a>
@@ -72,7 +72,10 @@
 		<div class="school-list clearfix">
 			<div class="sl-item" data-img="temp/user-work1.jpg" href="temp/user-work1.jpg" data-href="competition_work_detail_beforeVoteOver.html" data-lightbox="image-1" data-desc="作者姓名：朱永强" data-title="《存在二》">
 				<div class="ws-img">
-					<img src="temp/work1.jpg" alt="">
+					<div class="ws-img-box">
+						<img src="temp/work1.jpg" alt="">
+						<span class="flag-enter">入围</span>
+					</div>
 				</div>
 				<strong>大珠小珠1111</strong>
 				<div class="si-info">
@@ -97,7 +100,10 @@
 			</div>
 			<div class="sl-item" href="temp/user-work3.jpg" data-href="competition_work_detail_beforeVoteOver.html" data-lightbox="image-1" data-desc="作者姓名：朱永强" data-title="《存在二》">
 				<div class="ws-img">
-					<img src="temp/work2.jpg" alt="">
+					<div class="ws-img-box">
+						<img src="temp/work2.jpg" alt="">
+						<span class="flag-enter">入围</span>
+					</div>
 				</div>
 				<strong>大珠小珠2</strong>
 				<div class="si-info">
@@ -122,7 +128,10 @@
 			</div>
 			<div class="sl-item" href="temp/user-work4.jpg" data-href="competition_work_detail_beforeVoteOver.html" data-lightbox="image-1" data-desc="作者姓名：朱永强" data-title="《存在二》">
 				<div class="ws-img">
-					<img src="temp/work3.jpg" alt="">
+					<div class="ws-img-box">
+						<img src="temp/work3.jpg" alt="">
+						<span class="flag-enter">入围</span>
+					</div>
 				</div>
 				<strong>大珠小珠3</strong>
 				<div class="si-info">
@@ -147,7 +156,10 @@
 			</div>
 			<div class="sl-item" href="temp/user-work1.jpg" data-href="competition_work_detail_beforeVoteOver.html" data-lightbox="image-1" data-desc="作者姓名：朱永强" data-title="《存在二》">
 				<div class="ws-img">
-					<img src="temp/work1.jpg" alt="">
+					<div class="ws-img-box">
+						<img src="temp/work1.jpg" alt="">
+						<span class="flag-enter">入围</span>
+					</div>
 				</div>
 				<strong>大珠小珠4</strong>
 				<div class="si-info">
@@ -172,7 +184,10 @@
 			</div>
 			<div class="sl-item" href="temp/user-work3.jpg" data-href="competition_work_detail_beforeVoteOver.html" data-lightbox="image-1" data-desc="作者姓名：朱永强" data-title="《存在二》">
 				<div class="ws-img">
-					<img src="temp/work2.jpg" alt="">
+					<div class="ws-img-box">
+						<img src="temp/work1.jpg" alt="">
+						<span class="flag-enter">入围</span>
+					</div>
 				</div>
 				<strong>大珠小珠5</strong>
 				<div class="si-info">
@@ -197,7 +212,10 @@
 			</div>
 			<div class="sl-item" href="temp/user-work4.jpg" data-href="competition_work_detail_beforeVoteOver.html" data-lightbox="image-1" data-desc="作者姓名：朱永强" data-title="《存在二》">
 				<div class="ws-img">
-					<img src="temp/work3.jpg" alt="">
+					<div class="ws-img-box">
+						<img src="temp/work1.jpg" alt="">
+						<span class="flag-enter">入围</span>
+					</div>
 				</div>
 				<strong>大珠小珠6</strong>
 				<div class="si-info">
@@ -222,7 +240,10 @@
 			</div>
 			<div class="sl-item" href="temp/user-work1.jpg" data-href="competition_work_detail_beforeVoteOver.html" data-lightbox="image-1" data-desc="作者姓名：朱永强" data-title="《存在二》">
 				<div class="ws-img">
-					<img src="temp/work1.jpg" alt="">
+					<div class="ws-img-box">
+						<img src="temp/work1.jpg" alt="">
+						<span class="flag-enter">入围</span>
+					</div>
 				</div>
 				<strong>大珠小珠7</strong>
 				<div class="si-info">
@@ -247,7 +268,10 @@
 			</div>
 			<div class="sl-item" href="temp/user-work3.jpg" data-href="competition_work_detail_beforeVoteOver.html" data-lightbox="image-1" data-desc="作者姓名：朱永强" data-title="《存在二》">
 				<div class="ws-img">
-					<img src="temp/work2.jpg" alt="">
+					<div class="ws-img-box">
+						<img src="temp/work1.jpg" alt="">
+						<span class="flag-enter">入围</span>
+					</div>
 				</div>
 				<strong>大珠小珠8</strong>
 				<div class="si-info">
@@ -272,7 +296,10 @@
 			</div>
 			<div class="sl-item" href="temp/user-work4.jpg" data-href="competition_work_detail_beforeVoteOver.html" data-lightbox="image-1" data-desc="作者姓名：朱永强" data-title="《存在二》">
 				<div class="ws-img">
-					<img src="temp/work3.jpg" alt="">
+					<div class="ws-img-box">
+						<img src="temp/work1.jpg" alt="">
+						<span class="flag-enter">入围</span>
+					</div>
 				</div>
 				<strong>大珠小珠</strong>
 				<div class="si-info">
@@ -297,7 +324,9 @@
 			</div>
 			<div class="sl-item" href="temp/user-work1.jpg" data-href="competition_work_detail_beforeVoteOver.html" data-lightbox="image-1" data-desc="作者姓名：朱永强" data-title="《存在二》">
 				<div class="ws-img">
-					<img src="temp/work1.jpg" alt="">
+					<div class="ws-img-box">
+						<img src="temp/work1.jpg" alt="">
+					</div>
 				</div>
 				<strong>大珠小珠</strong>
 				<div class="si-info">
@@ -322,11 +351,12 @@
 			</div>
 			<div class="sl-item" href="temp/user-work3.jpg" data-href="competition_work_detail_beforeVoteOver.html" data-lightbox="image-1" data-desc="作者姓名：朱永强" data-title="《存在二》">
 				<div class="ws-img">
-					<img src="temp/work2.jpg" alt="">
+					<div class="ws-img-box">
+						<img src="temp/work1.jpg" alt="">
+					</div>
 				</div>
 				<strong>大珠小珠</strong>
 				<div class="si-info">
-					<span>作者：李友生</span>
 					<span>编号：1</span>
 					<div class="judge-vote">
 						<span class="jv-count">评委投票：3</span>
@@ -348,11 +378,12 @@
 			</div>
 			<div class="sl-item" href="temp/user-work4.jpg" data-href="competition_work_detail_beforeVoteOver.html" data-lightbox="image-1" data-desc="作者姓名：朱永强" data-title="《存在二》">
 				<div class="ws-img">
-					<img src="temp/work3.jpg" alt="">
+					<div class="ws-img-box">
+						<img src="temp/work1.jpg" alt="">
+					</div>
 				</div>
 				<strong>大珠小珠</strong>
 				<div class="si-info">
-					<span>作者：李友生</span>
 					<span>编号：1</span>
 					<div class="judge-vote">
 						<span class="jv-count">评委投票：3</span>
