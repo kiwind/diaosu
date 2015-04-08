@@ -73,6 +73,7 @@ _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingM
 .box-r .news-list li p em{margin:0 6px;}
 .work-show{height:490px;}
 .work-show .school-list .sl-item{width:152px;height:202px;margin:0 46px 10px 0;padding-bottom:8px;border:none;overflow:hidden;cursor:pointer;}
+.work-show-personal .school-list .sl-item{margin-right:6px;}
 .work-show .school-list .sl-item:hover,.work-show .school-list .sl-item-hover{width:150px;height:200px;border:1px solid #D2334F;}
 .work-show .school-list .sl-item .ws-img{display:table-cell;width:150px;height:150px;border:1px solid #E1E1E1;vertical-align:middle;*display:block;+font-size:100px;_font-size:123px;overflow:hidden;}
 .work-show .school-list img{width:auto;height:auto;max-width:130px;max-height:130px;border:0 none;vertical-align:middle;}

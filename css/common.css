@@ -63,16 +63,21 @@ p{color:#4A4A4A;}
 .header-ht .ht-l span{margin:0 16px 0 20px;}
 .header-ht a{margin:0 16px;color:#FFF;}
 .header-ht a:hover{color:#FFF;text-decoration:underline;}
-.header{height:88px;border-top: 3px solid #101010;background: #111111 url(images/repeatx.png) repeat-x 0 -31px;}
-.header .logo{margin:12px 45px 0 19px;}
+.header{height:93px;border-top: 3px solid #101010;background: #111111 url(images/repeatx.png) repeat-x 0 -31px;}
+.header .logo{margin:23px 45px 0 19px;}
 .header .menu{line-height:88px;}
 .header .menu a{margin:0 13px;color:#7a7a7a;font-size:16px;font-family:"microsoft yahei";}
 .header .menu .cur,.header .menu a:hover{color:#FFF;}
-.header .search{position: relative;width:216px;height:31px;margin:28px 20px 0 0;background: url(images/sprite.png) no-repeat 0 0;font-family:"microsoft yahei";}
+.header .search{position: relative;width:216px;height:31px;margin:38px 20px 0 0;background: url(images/sprite.png) no-repeat 0 0;font-family:"microsoft yahei";}
+.header .search-focus{background-position:0 -252px;}
 .header .search .placeholder{position:absolute;width:152px;height:30px;top:0;left:17px;overflow:hidden;}
 .header .search .placeholder input,.header .search .placeholder span{position:absolute;width:100%;height:30px;line-height:30px;top:0;left:0;color:#7a7a7a;}
 .header .search .placeholder input{height:18px;line-height:18px;padding:6px 0;border:0 none;background:none;color:#7a7a7a;}
 .header .search .search-btn{position:absolute;top:0;right:0;width:44px;height:30px;line-height:30px;border:0 none;background:none;text-align:center;color:#7a7a7a;cursor:pointer;font-family:"microsoft yahei";}
+.header .search .search-btn:hover{color:#D2334F;}
+.header .search .search-channel{position:absolute;left:9px;top:-21px;height:20px;line-height:20px;}
+.header .search .search-channel a{margin:0 6px;color:#7B7B7B;}
+.header .search .search-channel .cur{color:#D13451;}
 
 .smenu{margin-top:12px;}
 .smenu ul{width:900px;border-bottom:1px solid #0F0E0E;}
@@ -82,13 +87,16 @@ p{color:#4A4A4A;}
 .smenu .cur a,.smenu li a:hover{color:#d2334f;}
 .smenu li .cb{color:#1377b8;}
 
-.footer{margin-top:5px;padding:5px 0 20px 0;background:#121212 url(images/footer-repeat.png) repeat-x 0 0;text-align:center;font-family:"microsoft yahei";}
+.footer{margin-top:5px;padding:5px 0 100px 0;background:#121212 url(images/footer-repeat.png) repeat-x 0 0;text-align:center;font-family:"microsoft yahei";}
 .footer .link{padding:5px 0;}
 .footer .link a{margin:0  24px;line-height:20px;color:#FFF;}
 .footer .link a:hover{text-decoration:underline;}
 .footer .copyright{line-height:26px;color:#FFF;}
 .footer .copyright span{margin:0 8px;}
 .footer .f-contact{line-height:32px;color:#FFF;}
+.footer .authentication{margin-top:10px;}
+.footer .authentication img{height:48px;width:auto;border:1px solid #D1D1D1;}
+.footer .authentication a{margin:0 12px;}
 
 .tab li,.tab li a{display:inline;float:left;height:24px;line-height:24px;padding:0 15px;margin-right:4px;font-size:14px;color:#000;font-family:"microsoft yahei";cursor:pointer;}
 .tab li.cur{background:#CB2F4B url(images/tab-cur.png) no-repeat 50% bottom;color:#FFF;cursor:default;}
@@ -113,12 +121,13 @@ p{color:#4A4A4A;}
 .ico-comment-exb{width:12px;height:13px;background: url(images/sprite.png) no-repeat -23px -75px;}
 .ico-one{width:18px;height:2px;background: url(images/sprite.png) no-repeat -40px -75px;}
 
-.gotop{display:none;position:fixed;right:10px;bottom:100px;}
-.gotop a{position:absolute;display:block;width:48px;height:80px;right:0;bottom:0;background:url(images/sprite.png) no-repeat 0 -98px;}
-.gotop a:hover{background-position:-53px -98px;}
+.gotop{display:none;position:fixed;right:10px;bottom:100px;z-index:2000;}
+.gotop .gotop-btn{position:absolute;display:block;width:48px;height:36px;right:0;bottom:46px;background:url(images/sprite.png) no-repeat 0 -98px;overflow:hidden;}
+.gotop .gotop-btn:hover{background-position:-53px -98px;}
+.gotop .code-box{position:absolute;display:block;width:48px;height:46px;right:0;bottom:0;background:url(images/sprite.png) no-repeat 0 -134px;}
 .gotop .code{position:absolute;display:none;width:118px;height:259px;padding-top:9px;right:46px;bottom:0;border:1px solid #000000;background-color:#FFF;text-align:center;}
 .gotop .code p{height:30px;line-height:30px;font-family:"microsoft yahei";color:#000;}
 .gotop a p{color:#000;}
-.gotop a:hover .code{display:block;}
+.gotop .code-box:hover .code{display:block;}
 
 .content{position: relative;}

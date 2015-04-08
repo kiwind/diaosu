@@ -551,6 +551,7 @@ var DS = (function($){
         init:function(){
             this.placeHolder();
             this.goTop();
+            this.headerSearch();
             this.competitionSearch();
         },
         placeHolder:function(){
@@ -611,6 +612,21 @@ var DS = (function($){
                 }
             });
             
+        },
+        headerSearch:function(){
+            var _box = $(".header").find(".search");
+            _box.find(".search-channel").find("a").on("click",function(){
+                $(this).addClass("cur").siblings().removeClass("cur");
+            });
+
+            _box.find(".placeholder").find("input").on({
+                focusin:function(){
+                    _box.addClass("search-focus");
+                },
+                focusout:function(){
+                    _box.removeClass("search-focus");
+                }
+            });
         },
         competitionSearch:function(){
             var _box = $("#competitionSearch");
