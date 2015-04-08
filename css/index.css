@@ -327,6 +327,10 @@
 	margin:0 0 0 17px;
 }
 
+.index-s-news .news-list{
+	margin-top:7px;
+}
+
 .index-s-news .news-list .ntitle{
 	display:block;
 	height:26px;
