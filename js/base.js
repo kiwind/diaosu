@@ -552,6 +552,7 @@ var DS = (function($){
             this.placeHolder();
             this.goTop();
             this.headerSearch();
+            this.headerWx();
             this.competitionSearch();
         },
         placeHolder:function(){
@@ -626,6 +627,12 @@ var DS = (function($){
                 focusout:function(){
                     _box.removeClass("search-focus");
                 }
+            });
+        },
+        headerWx:function(){
+            var _box = $(".header-ht").find(".wx");
+            _box.on("click",function(){
+                _box.find("img").toggleClass("hide");
             });
         },
         competitionSearch:function(){

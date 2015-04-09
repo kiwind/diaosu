@@ -59,10 +59,16 @@ a:hover{text-decoration:none;color:#d2334f;}
 p{color:#4A4A4A;}
 .box{display: inline;float:left;width:980px;margin-top:4px;border:1px solid #E1E1E1;border-radius:4px;background-color: #fff;overflow:hidden;}
 .sbox{width:944px;padding:18px;margin:0 auto;margin-top:4px;border:1px solid #E1E1E1;border-radius:4px;background-color: #fff;overflow:hidden;}
-.header-ht{height:25px;line-height:25px;border-bottom:1px solid #D690A1;background:#d2334f url(images/repeatx.png) repeat-x 0 0;color:#FFF;font-family:"microsoft yahei";}
+.header-ht{position:relative;height:25px;line-height:25px;border-bottom:1px solid #D690A1;background:#d2334f url(images/repeatx.png) repeat-x 0 0;color:#FFF;font-family:"microsoft yahei";z-index:10;}
 .header-ht .ht-l span{margin:0 16px 0 20px;}
 .header-ht a{margin:0 16px;color:#FFF;}
 .header-ht a:hover{color:#FFF;text-decoration:underline;}
+.header-ht .ico{vertical-align:middle;}
+.header-ht .wb{margin-right:0;}
+.header-ht .wx{position:relative;margin-left:16px;}
+.header-ht .wx img{position:absolute;bottom:-111px;left:0;}
+.header-ht .wb:hover .ico-wb{background-position:-30px -302px;}
+.header-ht .wx:hover .ico-wx{background-position:-30px -324px;}
 .header{height:93px;border-top: 3px solid #101010;background: #111111 url(images/repeatx.png) repeat-x 0 -31px;}
 .header .logo{margin:23px 45px 0 19px;}
 .header .menu{line-height:88px;}
@@ -120,6 +126,8 @@ p{color:#4A4A4A;}
 .ico-video{width:50px;height:33px;background: url(images/video.png) no-repeat 0 0;}
 .ico-comment-exb{width:12px;height:13px;background: url(images/sprite.png) no-repeat -23px -75px;}
 .ico-one{width:18px;height:2px;background: url(images/sprite.png) no-repeat -40px -75px;}
+.ico-wb{width:22px;height:17px;background: url(images/sprite.png) no-repeat 0 -302px;}
+.ico-wx{width:22px;height:17px;background: url(images/sprite.png) no-repeat 0 -324px;}
 
 .gotop{display:none;position:fixed;right:10px;bottom:100px;z-index:2000;}
 .gotop .gotop-btn{position:absolute;display:block;width:48px;height:36px;right:0;bottom:46px;background:url(images/sprite.png) no-repeat 0 -98px;overflow:hidden;}
