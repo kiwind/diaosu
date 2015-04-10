@@ -191,6 +191,7 @@ _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingM
 .work-show-user .school-list .sl-item strong{height:26px;line-height:26px;font-size:14px;font-family:"microsoft yahei";}
 .work-show-user .school-list .sl-item:hover strong{color:#000;}
 .work-show-user .school-list .sl-item .ws-img{height:142px;+font-size:93px;_font-size:118px;}
+.work-show-user-other{height:432px;}
 
 .user-brief{height:432px;}
 .user-brief .ub-img{text-align:center;}
@@ -209,6 +210,7 @@ _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingM
 .user-article .a-title .ua-type{float:left;margin:-1px 8px 0 0;color:#7A7A7A;}
 .user-article .a-title a{width:560px;height:27px;font-size:12px;font-family:\5b8b\4f53;color:#4a4a4a;}
 .user-article .a-title a:hover{color:#D2334F;}
+.user-article-other .article-list{height:280px;}
 
 .exhibition{height:326px;}
 .exhibition-list{padding:15px 0 0 17px;}
@@ -432,3 +434,6 @@ _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingM
 
 .graduate-list{margin-top:18px;}
 .graduate-list a{float:left;width:5em;height:20px;line-height:20px;margin-bottom:10px;overflow:hidden;}
+
+.member-school-upload{padding:22px 0;text-align:center;}
+.member-school-upload img{width:231px;height:474px;}
