@@ -93,6 +93,13 @@
 	bottom:0;
 	left:0;
 	text-align:right;
+	
+}
+
+.index-banner-wrapper .owl-pagination{
+
+	position:static;
+	_float:right;
 }
 
 .index-banner-wrapper .owl-page{
@@ -101,6 +108,9 @@
 	margin-right:3px;
 	border-radius:50%;
 	background-color:#FFF;
+	*display:inline;
+	*margin-top:8px;
+
 }
 
 .index-banner-wrapper .owl-page.active{
@@ -146,6 +156,7 @@
 	width:247px;
 	margin-top:0;
 	padding:18px 17px 0 0;
+	overflow:visible;
 }
 
 .content-index .index-ads a{
@@ -159,10 +170,12 @@
 	height:78px;
 }
 
+
 .float-ad{
 	position:fixed;
 	top:140px;
 	z-index:1000;
+	_position:absolute;_top:expression(eval(document.documentElement.scrollTop+140));
 }
 
 .float-ad img{
@@ -212,8 +225,11 @@
 }
 
 .index-sculpturer .img-list a{
+	display:inline;
 	width:78px;
+	height:106px;
 	margin:0 3px;
+	overflow:hidden;
 }
 
 .index-sculp-school{
@@ -224,7 +240,7 @@
 	width:110px;
 	height:110px;
 	margin:0 4px 4px 0;
-	border:none;
+	border:0 none;
 }
 
 .index-sculp-school .school-list img{
@@ -233,12 +249,21 @@
 	border:1px solid #E7E7E7;
 }
 
+.index-sculp-school .school-list .sl-item:hover{
+	border:0 none;
+}
+
 .index-sculp-school .school-list .sl-item:hover img{
-	border-color:#D5516A;
+	border:1px solid #D5516A;
 }
 
 .index-lasted-news{
 	height:auto;
+}
+
+.index-lasted-news .news-list li{
+	+margin-bottom:7px;
+	_margin-bottom:9px;
 }
 
 .sculpturer-scroll-control{
@@ -246,6 +271,7 @@
 	margin:0 auto;
 	border-top:1px solid #CCC;
 	text-align:right;
+	*padding:3px 0;
 }
 
 .sculpturer-scroll-control a{
@@ -254,6 +280,7 @@
 	height:11px;
 	margin-left:5px;
 	background: url(images/sprite.png) no-repeat 0 0;
+	overflow:hidden;
 }
 
 .sculpturer-scroll-control .disabled{
@@ -392,6 +419,7 @@
 	text-indent:14px;
 	text-overflow:ellipsis;
 	white-space:nowrap;
+	cursor:pointer;
 	overflow:hidden;
 	*height:24px;
 }
@@ -399,6 +427,7 @@
 .index-s-news .news-list .ntitle em{
 	float:right;
 	color:#7A7A7A;
+	cursor:pointer;
 }
 
 .index-s-news .news-list .ntitle:hover em{
@@ -455,6 +484,7 @@
 }
 
 .index-work-comment .school-list .sl-item .iwc-text i{
+	float:left;
 	display:block;
 	font-size:12px;
 	color:#000;
@@ -467,16 +497,15 @@
 
 .index-work-comment .school-list .sl-item .iwc-text a{
 	position:relative;
-	display:inline-block;
+	display:block;
 }
 
 .index-work-comment .school-list .sl-item .iwc-text a span{
-	position:absolute;
+	position:relative;
+	float:right;
 	width:95px;
 	height:36px;
-	top:0;
 	padding:1px 0 2px 10px;
-	right:-114px;
 	line-height:18px;
 	background-color:#000;
 	color:#FFF;

@@ -613,6 +613,11 @@ var DS = (function($){
                 }
             });
             
+            _goTop.find(".code-box").hover(function(){
+                _goTop.find(".code").show();
+            },function(){
+                _goTop.find(".code").hide();
+            });
         },
         headerSearch:function(){
             var _box = $(".header").find(".search");

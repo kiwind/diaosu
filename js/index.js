@@ -70,7 +70,6 @@ DS.Index = {
 				}
 			}
 
-			console.log(_index)
 			if(_index > 0 && _index < _len - 1)
 			{
 				_downBtn.removeClass("disabled");
