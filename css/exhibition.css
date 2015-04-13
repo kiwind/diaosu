@@ -62,7 +62,7 @@
 
 .exhibitions-online{width:944px;}
 .exhibitions-online ul{width:1000px;}
-.exhibitions-online li{position: relative;margin:0 49px 28px 0;}
+.exhibitions-online li{position: relative;height:246px;margin:0 49px 28px 0;}
 .exhibitions-online p{text-align:left;}
 .exhibitions-online .comment{display:none;position: absolute;top:0;right:0;padding:4px 4px 2px 4px;background-color: #252525;color:#FFF;font-size:12px;}
 .exhibitions-online .comment .ico-comment-exb{margin-right:4px;vertical-align:middle;}
