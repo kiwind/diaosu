@@ -13,9 +13,11 @@
 .exhibitions{width:676px;margin:10px auto 0;}
 .exhibitions ul{width:701px;}
 .exhibitions li{display:inline;float:left;width:150px;margin-right:25px;}
+.exhibitions a{display:block;}
 .exhibitions img{width:150px;height:210px;}
-.exhibitions p{display:table-cell;width:150px;height:36px;line-height:17px;text-align:center;color:#000;vertical-align:middle;overflow:hidden;}
-.exhibitions a:hover p{background-color:#000;color:#FFF;}
+.exhibitions p{display:table-cell;width:150px;height:36px;line-height:17px;text-align:center;color:#000;vertical-align:middle;overflow:hidden;_display:block;}
+.exhibitions a:hover{display:block;background-color:#000;color:#FFF;}
+.exhibitions a:hover p{color:#FFF;}
 
 .exhibition-news ul{margin-top:3px;}
 .exhibition-news li{width:224px;height:26px;line-height:26px;margin:0 auto;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}

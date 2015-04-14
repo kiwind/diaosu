@@ -26,6 +26,11 @@ DS.competition.work = {
 			$(this).removeClass("btn-enter-cur");
 			return false;
 		});
+
+		_box.delegate(".btn-enter","click",function(){
+			alert("入围");
+			return false;
+		});
 	},
 	voteWork:function(){
 		var _box = $("#competitionEnterWork");
@@ -63,10 +68,8 @@ DS.competition.rank = {
 		this.rankHover();
 	},
 	rankHover:function(){
-		$(".judge-rank").find("tbody").find("tr").hover(function(){
-			$(this).addClass("hover");
-		},function(){
-			$(this).removeClass("hover");
+		$(".judge-rank").find("tbody").find("tr").on("mouseenter",function(){
+			$(this).addClass("hover").siblings().removeClass("hover");
 		});
 	}
 };

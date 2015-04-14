@@ -154,6 +154,8 @@ body:after {
 
 .lb-dataContainer p{
   color:#000;
+  font-size:14px;
+  font-family:"microsoft yahei";
 }
 
 .lb-dataContainer:after {
@@ -188,6 +190,8 @@ body:after {
   width:85%;
   font-weight: 400;
   line-height: 1.2em;
+  font-size:12px;
+  font-family:\5b8b\4f53;
 }
 .lb-data .work-detail,.lb-data a {
   float:right;

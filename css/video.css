@@ -1,3 +1,5 @@
+.smenu li a{margin:0 33px;}
+
 .video-list{padding:18px;}
 .video-list ul{width:996px;}
 .video-list li,.video-list img,.video-list .mask{width:200px;height:133px;}

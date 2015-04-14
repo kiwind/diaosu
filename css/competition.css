@@ -74,7 +74,7 @@
 .judge-rank table{width:100%;border-left:1px solid #EBEBEB;border-top:1px solid #EBEBEB;border-right:1px solid #EBEBEB;}
 .judge-rank th,.judge-rank td{padding:0 5px;border-bottom:1px solid #EBEBEB;}
 .judge-rank th{height:28px;font-size:14px;color:#000;font-family:"microsoft yahei";}
-.judge-rank td{padding:5px;height:26px;line-height:26px;}
+.judge-rank td{padding:5px;height:26px;line-height:26px;vertical-align:top;}
 .judge-rank .judges{width:464px;height:26px;overflow:hidden;}
 .judge-rank .judges a{float: left;width:4em;height:26px;margin-right:10px;}
 .judge-rank td .jr-title{display: block;width:100px;height:26px;overflow:hidden;}
@@ -86,7 +86,8 @@
 .judge-rank tr:hover .judges,.judge-rank .hover .judges{height:auto;}
 
 .competition-racenews .article{width:100%;padding-bottom:0;}
-.competition-racenews .article .a-title a{font-size:12px;font-family:\5b8b\4f53;}
+.competition-racenews .article .a-title{height:30px;line-height:30px;}
+.competition-racenews .article .a-title a{height:30px;font-size:12px;font-family:\5b8b\4f53;}
 
 .competition-join .sbox{min-height:600px;_height:600px;}
 .competition-join h1{line-height:32px;font-size:18px;font-family:"microsoft yahei";}
