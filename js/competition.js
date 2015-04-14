@@ -49,6 +49,11 @@ DS.competition.work = {
 			$(this).removeClass("btn-enter-cur");
 			return false;
 		});
+
+		_box.delegate(".btn-enter","click",function(){
+			alert("投票");
+			return false;
+		});
 	},
 	showVoters:function(){
 		var _items = $(".judge-vote");
