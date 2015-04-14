@@ -4,8 +4,8 @@
 .content-news-bg-left{position: absolute;width:710px;top:4px;left:0;bottom:0;background-color:#FFF;border:1px solid #E1E1E1;border-radius:4px;}
 .content-news-bg-right{position: absolute;width:263px;top:4px;right:0;bottom:0;background-color:#FFF;border:1px solid #E1E1E1;border-radius:4px;}
 .hot-comment{position:relative;padding-bottom:10px;border-bottom:0 none;z-index:2;}
-.hot-comment .news-list a{display:block;height:27px;line-height:27px;margin-top:10px;color:#7A7A7A;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
-.hot-comment .news-list a:hover{color:#d2334f;}
+.hot-comment .news-list .hc-title{display:block;height:27px;line-height:27px;margin-top:10px;color:#7A7A7A;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.hot-comment .news-list .hc-title:hover{color:#d2334f;}
 .hot-comment .news-list img{width:50px;height:50px;}
 .hot-comment .news-list li p{position:relative;width:140px;height:44px;line-height:18px;margin-left:18px;padding:4px 10px 0 10px;border:1px solid #ECECEC;text-indent:0;color:#000;overflow:visible;}
 .hot-comment .news-list li p em{position:absolute;width:8px;height:8px;top:13px;left:-14px;background: url(images/sprite.png) no-repeat -151px -36px;}
@@ -26,8 +26,8 @@
 .top-news-carousel .owl-buttons .owl-prev{left:0;}
 .top-news-carousel .owl-buttons .owl-next{right:0;}
 .top-news-carousel .owl-pagination{position:absolute;width:100%;height:20px;left:0;bottom:0;top:auto;text-align:center;}
-.top-news-carousel .owl-pagination .owl-page{display:inline;width:8px;margin:0 5px;}
-.top-news-carousel .owl-pagination .owl-page span{display:inline-block;width:8px;height:8px;background-color:#7A7A7A;border:1px solid #E1E1E1;border-radius:1px;}
+.top-news-carousel .owl-pagination .owl-page{display:inline;width:8px;height:8px;margin:0 5px;}
+.top-news-carousel .owl-pagination .owl-page span{display:inline-block;width:8px;height:8px;background-color:#7A7A7A;border:1px solid #E1E1E1;border-radius:1px;overflow:hidden;}
 .top-news-carousel .owl-pagination .active span{background-color:#D2334F;}
 
 .content-news-list{margin-bottom:20px;}
