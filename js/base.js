@@ -620,9 +620,11 @@ var DS = (function($){
             });
         },
         headerSearch:function(){
-            var _box = $(".header").find(".search");
+            var _box = $(".header").find(".search"),
+                _searchChannel = _box.find("#searchChannel");
             _box.find(".search-channel").find("a").on("click",function(){
                 $(this).addClass("cur").siblings().removeClass("cur");
+                _searchChannel.val($(this).text());
             });
 
             _box.find(".placeholder").find("input").on({
