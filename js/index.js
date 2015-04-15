@@ -111,5 +111,13 @@ DS.Index = {
 			}
 			_scrollBox.animate({marginTop:-_index*_h},1000);
 		});
+
+		_scroll.hover(function(){
+			clearInterval(_timer);
+		},function(){
+			_timer = setInterval(function(){
+				onTimer();
+			},3000);
+		});
 	}
 };

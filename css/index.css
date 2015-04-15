@@ -172,7 +172,7 @@
 
 
 .float-ad{
-	position:fixed;
+	position:absolute;
 	top:140px;
 	z-index:1000;
 	_position:absolute;_top:expression(eval(document.documentElement.scrollTop+140));
@@ -194,11 +194,11 @@
 }
 
 .fa-l{
-	left:53px;
+	left:5px;
 }
 
 .fa-r{
-	right:53px;
+	right:5px;
 }
 
 .index-ad{
@@ -262,8 +262,15 @@
 }
 
 .index-lasted-news .news-list li{
+	width:247px;
+	margin-left:0;
+	margin-right:0;
 	+margin-bottom:7px;
 	_margin-bottom:9px;
+}
+
+.index-lasted-news .news-list li .ntitle{
+	width:247px;
 }
 
 .sculpturer-scroll-control{
@@ -325,8 +332,9 @@
 
 .index-work-show{
 	width:946px;
-	height:auto;
+	height:260px;
 	margin-left:17px;
+	margin-top:-8px;
 }
 
 .index-work-show .tab{
@@ -436,6 +444,11 @@
 
 .index-sculpturer-senior{
 	height:252px;
+	margin-top:-8px;
+}
+
+.index-video{
+	margin-top:-8px;
 }
 
 .index-video .video-list{
@@ -465,6 +478,11 @@
 .index-video .video-list img{
 	width:120px;
 	height:80px;
+}
+
+.index-work-comment{
+	height:276px;
+	margin-top:-3px;
 }
 
 .index-work-comment .iws-title{
@@ -526,6 +544,11 @@
 
 .index-work-comment .school-list .sl-item:hover .iwc-text a span em,.index-work-comment .school-list .sl-item-hover .iwc-text a span em{
 	background-position:-45px -197px;
+}
+
+.friendlink{
+	height:auto;
+	margin-top:0;
 }
 
 .friendlink-list{
