@@ -291,6 +291,7 @@ _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingM
 .userwork-detail .img-slider .owl-prev:hover{background: url(carousel/arrow-l-hover.png) no-repeat 0 0;}
 .userwork-detail .img-slider .owl-next{display:block;position:absolute;width:56px;height:80px;right:0;top:50%;margin-top:-40px;background:url(carousel/arrow-r.png) no-repeat 0 0;text-indent:-9999px;}
 .userwork-detail .img-slider .owl-next:hover{background: url(carousel/arrow-r-hover.png) no-repeat 0 0;}
+.userwork-detail .img-slider h1{line-height:25px;text-align:center;font-size:14px;font-weight:700;}
 .img-slider .owl-controls{height:100%;}
 .userwork-detail .ud-top{text-align:right;padding-top:16px;}
 .userwork-detail .ud-top .more-img{margin-right:15px;color:#d72242;font-family:"microsoft yahei";}

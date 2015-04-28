@@ -25,7 +25,7 @@
 .menu-competition .cs-select .css-list{display:none;position: absolute;top:0;left:0;width:73px;top:-3px;left:-1px;padding:2px 0;border:1px solid #CE314E;background-color: #FFF;text-indent:4px;z-index:20;}
 .menu-competition .focus .cs-select .css-list{display:block;}
 .menu-competition .cs-select .css-list li{height:18px;line-height:18px;cursor:pointer;}
-.menu-competition .c-search .cs-btn{width:52px;height:24px;line-height:24px;margin:0;padding:0;background-color:#000;color:#FFF;font-size:14px;text-align:center;}
+.menu-competition .c-search .cs-btn{width:52px;height:24px;line-height:24px;margin:0;padding:0;border:0 none;background-color:#000;color:#FFF;font-size:14px;text-align:center;font-family:"microsoft yahei";cursor:pointer;}
 
 .competition-work{background-color:#FFF;}
 .competition-work .user-bread{padding:12px 0;}
