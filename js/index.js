@@ -4,7 +4,9 @@ DS.Index = {
 		this.initFloatAd();
 		this.initCarousel();
 		this.initTab();
+		this.sculpturerImgScroll();
 		this.sculpturerScroll();
+		this.indexLastedNewsScroll();
 	},
 	initFloatAd:function(){
 		$(".float-ad").find(".ad-close").on("click",function(){
@@ -26,6 +28,35 @@ DS.Index = {
 			tabBox:"#workShow",
 			tabBtn:".tab",
 			tabBoxClass:".school-list"
+		});
+	},
+	sculpturerImgScroll:function(){
+		var _box = $("#indexSculpturerList"),
+			_scrollBox = _box.find(".img-list-box"),
+			_h = _scrollBox.find("a").height(),
+			_timer = null,
+			_index = 0,
+			_len = Math.ceil(_scrollBox.height() / _h );
+
+		_timer = setInterval(function(){
+			onTimer();
+		},3000);
+
+		function onTimer(){
+			_index++;
+			if(_index > _len - 1)
+			{
+				_index = 0;
+			}
+			_scrollBox.animate({marginTop:-_index * _h});
+		}
+
+		_box.hover(function(){
+			clearInterval(_timer);
+		},function(){
+			_timer = setInterval(function(){
+				onTimer();
+			},3000);
 		});
 	},
 	sculpturerScroll:function(){
@@ -119,5 +150,34 @@ DS.Index = {
 				onTimer();
 			},3000);
 		});
+	},
+	indexLastedNewsScroll:function(){
+		var p = $("#indexLastedNews");
+     	var srollBox = p.find(".news-list");
+     	var box = p.find(".news-list-box");
+     	var html = box.html();
+     	var list = p.find("li");
+     	var timer;
+     	var index = 0;
+     	if(list.length <= 14) return false;
+     	box.append(html);
+     	var _st = p.find("ul").eq(1).position().top;
+     	auto();
+     	function auto(){
+     		timer=setInterval(onTimer,30);
+     	}
+     	function onTimer(){			
+     		var t = box.position().top - 1;			
+     		if( _st<=-t ){
+     			t = 0;
+     		}
+     		box.css({top:t});
+     	}
+     	box.hover(function(){
+     		clearInterval(timer);
+     	},function(){
+     		auto();
+     	});
+		             
 	}
 };

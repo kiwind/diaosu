@@ -19,9 +19,10 @@
 .content-news .news-box{padding:15px 18px;}
 .top-news h3{line-height:24px;font-size:18px;color:#000;font-family:"microsoft yahei";}
 .top-news p{margin-bottom:5px;line-height:20px;color:#7A7A7A;}
-.top-news-carousel{width:674px;height:432px;overflow:hidden;}
+.top-news-carousel{position:relative;width:674px;height:501px;overflow:hidden;}
+.top-news-carousel .owl-controls{position:static;}
 .top-news-carousel img{width:674px;height:432px;}
-.top-news-carousel .owl-controls{position:absolute;height:100%;}
+
 .top-news-carousel .owl-buttons div{position:absolute;width:74px;height:48px;line-height:36px;top:50%;margin-top:-24px;font-size:100px;font-family:"Constantia",Arial;color:#7A7A7A;text-align:center;*line-height:66px;}
 .top-news-carousel .owl-buttons .owl-prev{left:0;}
 .top-news-carousel .owl-buttons .owl-next{right:0;}
