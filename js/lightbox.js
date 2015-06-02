@@ -49,8 +49,11 @@
     Lightbox.prototype.enable = function() {
       var self = this;
       $('body').on('click', 'a[rel^=lightbox], area[rel^=lightbox], [data-lightbox], area[data-lightbox]', function(event) {
-        self.start($(event.currentTarget));
-        return false;
+        if($(event.target).parent().attr("class")!='voters' && $(event.target).attr("class") != 'justify-align')
+        {
+            self.start($(event.currentTarget));
+            return false;
+        }
       });
     };
 
