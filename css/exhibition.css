@@ -91,9 +91,11 @@
 .eo-intro img{width:312px;height:437px;margin-top:52px;border:1px solid #D6D6D6;border-radius:1px;}
 .eo-intro .eoi-r{width:610px;}
 .eo-intro .eoi-r h3{width:100%;height:50px;line-height:50px;margin-bottom:7px;font-size:24px;font-family:"microsoft yahei";overflow:hidden;}
-.eo-intro .eoi-r li{height:24px;line-height:24px;}
+.eo-intro .eoi-r li{line-height:24px;}
 .eo-intro .eoi-r .para{width:4em;height:24px;}
 .eo-intro .eoi-r .colon{margin:0 5px;}
+.eo-intro .eoi-r .element{width:540px;}
+.eo-intro .eoi-r .element a{margin-right:4px;}
 .eo-intro .uintro-box h3{height:26px;line-height:26px;font-size:16px;}
 .eo-intro .uintro-box p{line-height:24px;}
 .eo-intro .uintro-text{height:263px;margin-bottom:5px;}

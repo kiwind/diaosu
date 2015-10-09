@@ -152,6 +152,11 @@
 	color:#7a7a7a;
 }
 
+.index-topnews .top a{
+	font-weight:700;
+	color:#d2334f;
+}
+
 .content-index .index-ads{
 	width:247px;
 	margin-top:0;

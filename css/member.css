@@ -209,7 +209,7 @@ _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingM
 .user-article .article-list{height:140px;min-height:0;padding-top:6px;}
 .user-article .a-title{height:27px;line-height:27px;}
 .user-article .a-title .ua-type{float:left;margin:-1px 8px 0 0;color:#7A7A7A;}
-.user-article .a-title a{width:560px;height:27px;font-size:12px;font-family:\5b8b\4f53;color:#4a4a4a;}
+.user-article .a-title a{width:500px;height:27px;font-size:12px;font-family:\5b8b\4f53;color:#4a4a4a;}
 .user-article .a-title a:hover{color:#D2334F;}
 .user-article-other .article-list{height:280px;}
 
