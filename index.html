@@ -260,7 +260,7 @@
 				<a class="down" href="javascript:;"></a>
 				<a class="up disabled" href="javascript:;"></a>
 			</div>
-			<div class="sculpturer-scroll">
+			<div class="sculpturer-scroll" id="rolllink">
 				<div class="sculpturer-scroll-box clearfix">
 					<a href="#">李镝</a>
 					<a href="#">武杰</a>
@@ -457,13 +457,25 @@
 			<div class="news-list-box">
 				<ul>
 					<li>
-						<a class="ntitle" href="#" title="2014年雕塑毕业生展开幕式">2014年雕塑毕业生展开幕式1111</a>
+						<a class="ntitle" href="#" title="2014年雕塑毕业生展开幕式">12014年雕塑毕业生展开幕式1111</a>
 					</li>
 					<li>
-						<a class="ntitle" href="#" title="2014年雕塑毕业生展开幕式">2014年雕塑毕业生展开幕式</a>
+						<a class="ntitle" href="#" title="2014年雕塑毕业生展开幕式">12014年雕塑毕业生展开幕式1111</a>
 					</li>
 					<li>
-						<a class="ntitle" href="#" title="2014年雕塑毕业生展开幕式">2014年雕塑毕业生展开幕式</a>
+						<a class="ntitle" href="#" title="2014年雕塑毕业生展开幕式">12014年雕塑毕业生展开幕式1111</a>
+					</li>
+					<li>
+						<a class="ntitle" href="#" title="2014年雕塑毕业生展开幕式">12014年雕塑毕业生展开幕式1111</a>
+					</li>
+					<li>
+						<a class="ntitle" href="#" title="2014年雕塑毕业生展开幕式">12014年雕塑毕业生展开幕式1111</a>
+					</li>
+					<li>
+						<a class="ntitle" href="#" title="2014年雕塑毕业生展开幕式">22014年雕塑毕业生展开幕式</a>
+					</li>
+					<li>
+						<a class="ntitle" href="#" title="2014年雕塑毕业生展开幕式">32014年雕塑毕业生展开幕式</a>
 					</li>
 					<li>
 						<a class="ntitle" href="#" title="2014年雕塑毕业生展开幕式">2014年雕塑毕业生展开幕式</a>
@@ -1168,9 +1180,33 @@
 <script type="text/javascript" src="js/carousel.min.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript">
+
+var size,curs=1;
 	$(function(){
 		DS.Index.init();
+		size=$("#workShow .tab li").size();
+		
+		var tab=setInterval(tabfunction,2000) //设置定时器
+		$("#workShow").mouseover(function(e) {
+            clearInterval(tab)
+        });
+		$("#workShow").mouseout(function(e) {
+            tab=setInterval(tabfunction,2000)
+        });
 	});
+function tabfunction(){
+	eq=$("#workShow .tab li.cur").index()+1;
+	if(eq!=curs){
+		curs=eq;
+	}
+	if(curs>size-1){
+		curs=0;
+	}
+	$("#workShow .tab li").removeClass('cur').eq(curs).addClass('cur').click();
+	curs++;
+}
+	
+
 </script>
 </body>
 </html>

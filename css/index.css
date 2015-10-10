@@ -287,12 +287,16 @@
 	width:247px;
 	margin-left:0;
 	margin-right:0;
-	+margin-bottom:7px;
-	_margin-bottom:9px;
+	margin-bottom:0px;
+	height:27px;
+	line-height:27px;
 }
 
 .index-lasted-news .news-list li .ntitle{
 	width:247px;
+	height:27px;
+	line-height:27px;
+	background: url(images/sprite.png) no-repeat -212px -47px;
 }
 
 .sculpturer-scroll-control{
@@ -308,13 +312,13 @@
 	width:11px;
 	height:11px;
 	margin-left:5px;
-	background: url(images/sprite.png) no-repeat 0 0;
-	overflow:hidden;
+/*	background: url(images/sprite.png) no-repeat 0 0;
+*/	overflow:hidden;
 }
 
 .sculpturer-scroll-control .disabled{
-	background:#D2334F none;
-	cursor:default;
+/*	background:#D2334F none;
+*/	cursor:default;
 }
 
 .sculpturer-scroll-control .up{
@@ -338,6 +342,11 @@
 	height:105px;
 	margin-left:22px;
 	overflow:hidden;
+	position: relative;
+}
+
+.sculpturer-scroll-box{
+	position:absolute;
 }
 
 .sculpturer-scroll a{
@@ -580,4 +589,14 @@
 
 .friendlink-list a{
 	margin:0 10px;
+}
+
+.sculpturer-scroll-box li{
+    width: 48px;
+    height: 21px;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:0px;
+	line-height:21px;
+	float:left;
 }

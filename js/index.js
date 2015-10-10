@@ -5,8 +5,9 @@ DS.Index = {
 		this.initCarousel();
 		this.initTab();
 		this.sculpturerImgScroll();
-		this.sculpturerScroll();
+		//this.sculpturerScroll();
 		this.indexLastedNewsScroll();
+		this.indexUsernameScroll();
 	},
 	initFloatAd:function(){
 		$(".float-ad").find(".ad-close").on("click",function(){
@@ -177,6 +178,37 @@ DS.Index = {
      		clearInterval(timer);
      	},function(){
      		auto();
+     	});
+		             
+	},
+	indexUsernameScroll:function(){
+		var p = $("#sculpturerScroll");
+     	var srollBox = p.find("#rolllink");
+     	var box = p.find(".sculpturer-scroll-box");
+     	var html = box.html();
+     	var list = p.find("li");
+		var height=box.height()-1;
+     	var timer;
+     	var index = 0;
+     	if(list.length <= 14) return false;
+     	box.append(html);
+     	var _st = p.find("ul").eq(1).position().top;
+		p.find("ul").css("clear","both");
+     	auto_();
+     	function auto_(){
+     		timer=setInterval(onTimer_,60);
+     	}
+     	function onTimer_(){			
+     		var t = box.position().top - 1;	
+     		if( -t>=height ){
+     			t = 0;
+     		}
+     		box.css({top:t});
+     	}
+     	box.hover(function(){
+     		clearInterval(timer);
+     	},function(){
+     		auto_();
      	});
 		             
 	}
