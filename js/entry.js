@@ -101,7 +101,7 @@ DS.entry = {
 			_verifyErr = _form.find(".verify-code").find(".err");
 		var _countDown = DS.widget("CountDown",{
 			box:_coutnDownBox,
-			seconds:5,
+			seconds:120,
 			txt:_coutnDownBox.find(".s"),
 			callback:function(){
 				_coutnDownBox.addClass("hide");
@@ -120,7 +120,7 @@ DS.entry = {
 			            	{
 			            		_coutnDownBox.removeClass("hide");
 								_getVerifyBtn.addClass("hide");
-								_countDown.reset(5);
+								_countDown.reset(120);
 			            	}
 			            	else if(data.status == "n")
 			            	{
@@ -229,7 +229,7 @@ DS.entry = {
 			            	_coutnDownBox.removeClass("hide");
 			            	var _countDown = DS.widget("CountDown",{
 								box:_coutnDownBox,
-								seconds:5,
+								seconds:120,
 								txt:_coutnDownBox.find(".s"),
 								callback:function(){
 									_coutnDownBox.addClass("hide");
