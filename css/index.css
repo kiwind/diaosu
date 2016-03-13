@@ -299,6 +299,10 @@
 	background: url(images/sprite.png) no-repeat -212px -47px;
 }
 
+.index-lasted-news .news-list li .ntitle:hover{
+	background-position: -212px -91px;
+}
+
 .sculpturer-scroll-control{
 	width:675px;
 	margin:0 auto;
