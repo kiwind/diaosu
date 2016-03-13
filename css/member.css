@@ -257,8 +257,8 @@ _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingM
 .user-yearbook dd{display:inline;float:left;width:600px;}
 .user-yearbook dd p{line-height:26px;color:#000;}
 
-.content .userwork-left-up{height:324px;border:1px solid #E1E1E1;border-radius:4px;}
-.content .userwork-left-down{height:370px;margin-top:4px;border:1px solid #E1E1E1;border-radius:4px;}
+.content .userwork-left-up{height:auto;border:1px solid #E1E1E1;border-radius:4px;}
+.content .userwork-left-down{height:auto;margin-top:4px;border:1px solid #E1E1E1;border-radius:4px;}
 .userwork-search{padding:18px;}
 .userwork-left-down .userwork-search{padding-top:3px;}
 .userwork-search .search-surname{float:none;width:225px;}
