@@ -432,6 +432,7 @@ _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingM
 .school-article .s-a-img{text-align:center;}
 .school-article .s-a-img img{max-width:100%;height:auto;}
 .school-article .s-a-img p{margin-bottom:20px;}
+.school-article .s-a-text iframe{margin: 0 auto;}
 
 .graduate-list{margin-top:18px;}
 .graduate-list a{float:left;width:5em;height:20px;line-height:20px;margin-bottom:10px;overflow:hidden;}
