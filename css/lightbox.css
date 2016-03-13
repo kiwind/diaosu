@@ -195,7 +195,7 @@ body:after {
 }
 .lb-data .work-detail,.lb-data a {
   float:right;
-  width:15%;
+  width:4em;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.2em;
