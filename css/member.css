@@ -435,7 +435,7 @@ _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingM
 .school-article .s-a-text iframe{margin: 0 auto;}
 
 .graduate-list{margin-top:18px;}
-.graduate-list a{float:left;width:5em;height:20px;line-height:20px;margin-bottom:10px;overflow:hidden;}
+.graduate-list a, .graduate-list span{float:left;width:5em;height:20px;line-height:20px;margin-bottom:10px;overflow:hidden;}
 
 .member-school-upload{padding:22px 0;text-align:center;}
 .member-school-upload img{width:231px;height:474px;}
