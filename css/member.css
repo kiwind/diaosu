@@ -406,7 +406,7 @@ _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingM
 .school-article-list .article{width:944px;padding-bottom:36px;}
 .school-article-list .article .a-img{display:inline;float:left;width:107px;}
 .school-article-list .article .a-img img{width:107px;height:107px;}
-.school-article-list .article .a-r{display:inline;float:right;width:816px;}
+.school-article-list .article .a-r{display:inline;float:right;width:100%;}
 .school-article-list .article .a-title{height:20px;line-height:20px;margin-bottom:2px;}
 .school-article-list .article .a-title a{width:700px;height:20px;line-height:20px;}
 .school-article-list .article .a-title .date{color:#000;}
